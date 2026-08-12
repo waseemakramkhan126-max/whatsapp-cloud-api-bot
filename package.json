@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-baileys-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waseemakramkhan126-max/whatsapp-baileys-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/waseemakramkhan126-max/whatsapp-baileys-bot/issues"
+  },
+  "homepage": "https://github.com/waseemakramkhan126-max/whatsapp-baileys-bot#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@supabase/supabase-js": "^2.112.2",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "express": "^5.2.1",
+    "qrcode": "^1.5.4",
+    "ws": "^8.21.3"
+  }
+}

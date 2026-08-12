@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🤖 WhatsApp Bot Control</h1>
+    <div class="controls">
+        <button id="pauseBtn">⏸ Pause Bot</button>
+        <button id="resumeBtn">▶️ Resume Bot</button>
+        <span id="status">Status: Running</span>
+    </div>
+
+    <div class="settings-group">
+        <h2>Settings</h2>
+        <label>Typing Delay Min (ms): <input id="typingMin" type="number" value="1000"></label>
+        <label>Typing Delay Max (ms): <input id="typingMax" type="number" value="3000"></label>
+        <label>Debounce Time (ms): <input id="debounce" type="number" value="3000"></label>
+        <button id="saveConfig">Save Config</button>
+    </div>
+
+    <h2>Live Logs</h2>
+    <div id="logContainer" class="log-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
